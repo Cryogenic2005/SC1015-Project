@@ -31,7 +31,7 @@ https://www.kaggle.com/datasets/jocelyndumlao/cardiovascular-disease-dataset
 
 Team 9:
 - Ariel Kwok Dai Hui
-- Liong XunQi
+- Liong Xun Qi
 - Le Nguyen Bao Huy
 
 ### Problem Statement
@@ -50,7 +50,19 @@ Other changes to the data set include changing column data types to boolean for 
 
 ### Exploratory Analysis
 
+To gain valuable insights from our data to help us identify the significant symptoms of heart disease, we decomposed our approach into 3 parts.
 
+firstly, we wanted to find out if there are any strong correlations between the numeric variables (age, resting blood pressure, serum cholesterol, maximum heart rate, old peak and the number of major blood vessels). All the numeric variables had very weak correlation with each other, so we can safely assume they are independent of each other.
+
+Secondly, we aimed to identify any numeric variables that shared a distinct relationship with the presence of heart disease. The following are the significant findings:
+- Heart disease patients tend to have higher resting blood pressure.
+- Patients with 2 or more major blood vessels are at higher risk of suffering from heart disease.
+
+Lastly, we explored and analysed the relationship between the non-numeric variables (gender, fasting blood sugar, presence of exercise induced angia, type of chest pain, resting ECG results and slope of ST segment) with the presence of heart disease. The following are the significant findings:
+- Patients who suffer from non-anginal chest pain were the most likely to have heart disease as compared to other chest pain types.
+- Patients who have fasting blood sugar that exceeds 120mg/dl are more likely to have heart disease.
+- Patients who had wave abnormality and left ventricular hypertrophy for their ECG results are at a high risk of having heart disease.
+- Patients with a flat or downsloping ST segment are highly likely suffering from heart disease.
 
 ### Modelling
 
