@@ -38,7 +38,11 @@ Team 9:
 
 Using the data set, we aim to answer the following questions:
 - Which factors are indicators of cardiovascular diseases
-- Are the elderly more likely to get cardiovascular diseases
+  - Are the elderly more likely to get cardiovascular diseases
+  - Does gender play a role?
+  - Which medical data are we interested in?
+- Can we build a model to accurately predict presence of heart disease?
+  - Which model is the best performing?
 
 ### Data Preparation
 
